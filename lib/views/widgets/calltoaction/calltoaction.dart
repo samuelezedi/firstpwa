@@ -14,7 +14,7 @@ class CallToAction extends StatelessWidget {
       ),
       decoration: BoxDecoration(
         color: Color.fromARGB(255, 31, 229, 146),
-        borderRadius: BorderRadius.circular(radius)
+        borderRadius: BorderRadius.circular(15)
       ),
     );
   }
