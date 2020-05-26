@@ -11,7 +11,7 @@ class NavigationBar extends StatelessWidget {
           SizedBox(
             height: 80,
             width: 150,
-            child: Image.asset('assets/images/pronoun-text.png'),
+            child: Image.asset('assets/pronoun-text.png'),
             ),
             Row(
               mainAxisSize: MainAxisSize.min,
