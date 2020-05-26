@@ -12,7 +12,8 @@ class CourseDetails extends StatelessWidget {
           Text('FLUTTER WEB \nTHE BASICS',
           style: TextStyle( 
             fontWeight: FontWeight.w800,
-            height: 0.9
+            height: 0.9,
+            fontSize: 80
           )),
           SizedBox( 
             height: 30,),
