@@ -1,3 +1,4 @@
+import 'package:firstpwa/views/widgets/navigations/nav_bar_logo.dart';
 import 'package:flutter/material.dart';
 
 class NavigationBar extends StatelessWidget {
@@ -8,11 +9,7 @@ class NavigationBar extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
-          SizedBox(
-            height: 80,
-            width: 150,
-            child: Image.asset('assets/pronoun-text.png'),
-            ),
+            NavBarLogo(),
             Row(
               mainAxisSize: MainAxisSize.min,
               children: <Widget>[
