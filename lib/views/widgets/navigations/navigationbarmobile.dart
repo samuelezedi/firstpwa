@@ -1,3 +1,4 @@
+import 'package:firstpwa/views/widgets/navigations/nav_bar_logo.dart';
 import 'package:flutter/material.dart';
 
 class NavigationBarMobile extends StatelessWidget {
@@ -7,9 +8,15 @@ class NavigationBarMobile extends StatelessWidget {
       height: 80,
       child: Row(
         mainAxisSize: MainAxisSize.max,
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-
-      ],),
+          IconButton(
+            icon: Icon(Icons.menu),
+            onPressed: () {},
+          ),
+          NavBarLogo()
+        ],
+      ),
     );
   }
 }
